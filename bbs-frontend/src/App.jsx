@@ -8,9 +8,9 @@ function App() {
   const [posts, setPosts] = useState([]);
 
   // 名前入力用のstate（初期値は空文字）
-  const [name, setName] = useState("");
+  const [name, setName] = useState("");   
 
-  // 投稿内容（本文）入力用のstate（初期値は空文字）
+  // 投稿内容（本文）入力用のstate（初期値は空文字）した
   const [content, setContent] = useState("");
 
   // 画面が表示されたタイミング（最初の1回だけ）で投稿データをサーバーから取得する
